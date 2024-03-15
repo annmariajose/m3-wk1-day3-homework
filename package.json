@@ -1,0 +1,15 @@
+{
+  "name": "m3-wk1-day3-homework",
+  "version": "1.0.0",
+  "description": "Week 1 day3 homework",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ann Maria Jose",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.3",
+    "pug": "^3.0.2"
+  }
+}
