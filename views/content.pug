@@ -24,9 +24,9 @@ html
                         li#posts(v-for='post in posts')
                             span.profile
                                 img(v-bind:src='post.profilepic' v-on:click='authorinfo(posts, post)')
-                            span.author {{ post.name }}
-                            |  &mdash;
-                            span.date {{ post.date }}
+                            span.author  {{ post.name }}
+                            |  &mdash; 
+                            span.date {{ post.date }} 
                             span.reply {{ post.reply }}
                             p
                                 | {{ post.message }}
@@ -44,5 +44,5 @@ html
                             button.closeBtn.closeBtnB(v-on:click="$emit('close', post.thisBox = false)") Close
                             p#close_info
             include ./footer.pug
-            
+
         script(type='text/javascript', src='/javascripts/vue.js')
